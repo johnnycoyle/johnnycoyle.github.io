@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Gaegu|Gloria+Hallelujah|Hi+Melody|Indie+Flower|Satisfy|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|East+Sea+Dokdo|Nanum+Brush+Script|Neucha|Permanent+Marker|Rock+Salt|Sacramento');
+
+#main-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name-tag {
+  display: flex;
+  width: 75%;
+  height: 85%;
+  background-image: url('./nametag_small.png');
+  background-position: center;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  min-width: 333px;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+}
+
+#handle-overflow {
+  width: 45vw;
+  margin: auto;
+}
+
+span {
+  display: block;
+  margin: auto;
+  font-size: 5vw;
+  text-align: center;
+  user-select: none;
+}
+
+#name-tag:active {
+  transition: all 200ms ease-in-out;
+  transform: scale(.95);
+}
+
+.animate {
+  transform: scale(.95);
+}
+
+#button {
+  display: block;
+  outline: none;
+  background: transparent;
+  border: none;
+  margin: auto;
+  background-image: url('https://d30y9cdsu7xlg0.cloudfront.net/png/110868-200.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 5%;
+  height: 40px;
+  margin-top: -100px;
+}
+
+#button:active {
+  width: 4%;
+  height: 37px;
+}
